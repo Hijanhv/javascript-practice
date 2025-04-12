@@ -17,5 +17,6 @@ function factorial(n) {
 let n = 5;
 console.log(`Calculating factorial of ${n}:`);
 let output = factorial(n);
+console.log("Final output:" + output);
 console.log(`Final output: ${output}`);
 // 5

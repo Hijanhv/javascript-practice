@@ -50,7 +50,7 @@ console.log("Hey user result is ", sumResult);
 //  because i++ increases the value of i by 1,
 //  while i + 1 just adds 1 to the value of i without changing it.
 
-//spread operator - a special operator that allows you to expand
+//spread operator - a special operator that allows you to expand (...)
 //  an iterable (like an array) into individual elements
 
 function addNumbersSpread(...args) {
