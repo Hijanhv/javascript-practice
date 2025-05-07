@@ -26,3 +26,5 @@ const sumAll = (...args) => {
   return args.reduce((sum, current) => sum + current, 0);
 };
 console.log(sumAll(1, 2, 3, 4, 5)); // Output: 15
+
+//arguments means the actual values that are passed into a function when it is called

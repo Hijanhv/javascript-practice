@@ -62,3 +62,7 @@ function addNumbersSpread(...args) {
 }
 let sumResultSpread = addNumbersSpread(11, 22, 33, 44, 55);
 console.log("Hey user result is ", sumResultSpread);
+
+//un defined - a special value that indicates that a variable has not been assigned a value
+
+// not defined - a special value that indicates that a variable has not been declared
