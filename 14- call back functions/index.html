@@ -1,0 +1,29 @@
+<!-- what is a callback function? in javascript -->
+
+<!-- A callback function is a function that is passed as an argument to another function. -->
+
+<!--javascript isa synchronous & single-threaded language -->
+
+<!-- it means that it can only do one thing at a time.-->
+<!-- but it can do things in a non-blocking way. -->
+<!-- this is where callback functions come in. -->
+<!-- they allow us to perform asynchronous operations without blocking the main thread. -->
+<!-- this is useful for tasks like making network requests, reading files, or performing long-running computations. -->
+<!-- when we pass a callback function to another function, we are telling that function to call our callback function when it is done with its work. -->
+<!-- this allows us to continue executing other code while we wait for the callback function to be called. -->
+<!-- this is how we can use callback functions to perform asynchronous operations in JavaScript. -->
+<!-- in this example, we have a function called fetchData that simulates an asynchronous operation by using setTimeout. -->
+<!-- when the data is ready, it calls the callback function with the data as an argument. -->
+<!-- this allows us to handle the data in the callback function without blocking the main thread. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script src="script.js" defer></script>
+  <body>
+    <button id="click me">click me</button>
+  </body>
+</html>
